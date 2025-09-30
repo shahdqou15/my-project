@@ -1,0 +1,42 @@
+body{
+    height: 5000px;
+    background-image: url(../img/public/background.webp);
+    background-size: cover;
+}
+.navbar{
+    padding: 40px 0;
+
+}
+.navbar-collapse{
+    flex-grow: 0;
+    
+}
+.nav-item{
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+.nav-item:hover{
+    font-weight: bold;
+    text-decoration: underline 2px ;
+    text-underline-offset: 0.375em;
+}
+.nav-item a:focus{
+    font-weight: bold;
+    text-decoration: underline 2px;
+    text-underline-offset: 0.375em;
+}
+
+.nav-icon ul{
+    list-style-type: none;
+}
+@media screen and (max-width:992px){
+
+    .nav-icon .icon-1
+    {
+        display: none;
+    }
+     .nav-icon .icon-3{
+        display: none;
+     }
+}
