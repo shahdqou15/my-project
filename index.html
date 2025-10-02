@@ -32,7 +32,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg position-fixed w-100">
+        <nav class="navbar navbar-expand-lg position-fixed w-100 z-1">
             <div class="container">
                 <button class="navbar-toggler border border-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
@@ -42,6 +42,7 @@
                             d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
                     </svg>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
                         <li class="nav-item">
@@ -71,6 +72,7 @@
                         </li>
                     </ul>
                 </div>
+
                 <div>
                     <a class="navbar-brand " href="./index.html"><img src="./assets/img/public/logo.webp" /></a>
 
@@ -97,7 +99,7 @@
                                 </svg>
 
                             </a>
-                            <ul class="dropdown-menu w-25 dropdown-menu-end main-font">
+                            <ul class="dropdown-menu w-25 dropdown-menu-end main-font text-center">
                                 <li>
                                     <div class="d-flex gap-3 align-items-center">
                                         <img src="./assets/img/cart/collec-1.webp" width="100px" class="m-2"/>
@@ -139,12 +141,11 @@
                                     <span>$621.6</span>
                                 </li>
                                 <li calss="buttons">
-                                    <button type="button" class="btn btn-dark rounded-0 main-font">ADD TO CART</button>
-                                    <button type="button" class="btn btn-dark rounded-0 main-font">CHEAK VIEW</button>
+                                    <a href="#"><button type="button" class="btn btn-dark rounded-0 main-font">ADD TO CART</button></a>
+                                    <a href="#"><button type="button" class="btn btn-dark rounded-0 main-font">CHEAK VIEW</button></a>
                                 </li>
                             </ul>
                         </li>
-
                         <li class="navicon icon-3">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
                                 width="30px"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -213,7 +214,20 @@
     </header>
 
 
+<main>
+    <div class="hero vh-100 text-center position-relative">
+        <div class="hero-content vh-100 d-flex flex-column justify-content-center align-items-center gap-4 text-black">
+            <div class="container">
+                <h3 class="main-font">EXPLORE THE</h3>
+                <h1>New Arrivals</h1>
+                <p class="main-font">It is a long established fact that a reader will be distracted by the<br> readable content of a page when looking at its layout</p>
+                <img src="./assets/img/public/Pattern.webp"/>
+                <div class="main-button secondary-font"><a href="#"><button type="button" class="btn btn-dark">Shop now</button></a></div>
 
+            </div>
+        </div>
+    </div>
+</main>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
