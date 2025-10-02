@@ -1,42 +1,103 @@
-body{
+body {
     height: 5000px;
     background-image: url(../img/public/background.webp);
     background-size: cover;
 }
-.navbar{
+
+:root {
+    --maincolor: #e18787;
+    --secondarycolor: #000000;
+    --mainfont: "Poppins", sans-serif;
+    --secondaryfont: "Abril Fatface", serif;
+}
+
+.main-font {
+    font-family: var(--mainfont);
+}
+
+/*start header*/
+.navbar {
     padding: 40px 0;
 
 }
-.navbar-collapse{
+
+.navbar-collapse {
     flex-grow: 0;
-    
+
 }
-.nav-item{
+
+.nav-item {
     font-size: 18px;
+    font-family: var(--mainfont);
     transition: 0.3s;
 
 }
-.nav-item:hover{
-    font-weight: bold;
-    text-decoration: underline 2px ;
+
+.nav-item:hover {
+    text-decoration: underline 2px;
     text-underline-offset: 0.375em;
 }
-.nav-item a:focus{
+
+.nav-item a:focus {
     font-weight: bold;
     text-decoration: underline 2px;
     text-underline-offset: 0.375em;
 }
 
-.nav-icon ul{
+.nav-icon ul {
     list-style-type: none;
 }
-@media screen and (max-width:992px){
 
-    .nav-icon .icon-1
-    {
+.dropdown-menu a {
+    font-size: 18px;
+    font-family: var(--mainfont);
+    transition: 0.3s;
+}
+
+.dropdown-menu a:active {
+    text-decoration: none;
+    background-color: var(--maincolor);
+}
+
+.dropdown-menu h1 {
+    font-weight: bold;
+}
+
+.nav-link .dropdown-toggle {
+    background-color: none;
+    text-decoration: none;
+}
+
+.salary {
+    font-weight: bold;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.buttons .btn {
+    border-radius: 0;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    color: #000000;
+    outline-color: #000000 1px;
+    background-color: #fff;
+}
+
+@media screen and (max-width:992px) {
+
+    .nav-icon .icon-1 {
         display: none;
     }
-     .nav-icon .icon-3{
+
+    .nav-icon .icon-3 {
         display: none;
-     }
+    }
 }
+
+
+
+/*end header*/
