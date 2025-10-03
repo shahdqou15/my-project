@@ -18,6 +18,9 @@ body {
 .secondary-font {
     font-family: var(--secondaryfont);
 }
+.p-section{
+    padding: 50px 0;
+}
 
 /*start header*/
 .navbar {
@@ -121,7 +124,7 @@ body {
     background-image: url(../img/public/hero.webp);
     background-size: cover;
     background-position: center;
-    padding: 50px 0;
+    
 
 }
 
@@ -147,9 +150,12 @@ body {
     outline-color: #000000 1px;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1314px) {
     .hero {
         top: 159px;
+    }
+    .hero h1{
+        font-size: 80px;
     }
 }
 
@@ -162,8 +168,66 @@ body {
     }
     .hero-content img{
         width: 150px;
-
     }
+    
 }
 
 /*end hero*/
+
+
+
+/*start we*/
+.we{
+   background-image: ("who.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    
+}
+
+.we .big{
+    font-size: 146px;
+    color: #ccd8dd;
+}
+.we .small{
+    font-size: 56px;
+    top: 32%;
+    left: 35%;
+}
+/*top: 116px;
+    left: 403px;*/
+.we p{
+    font-size: 14px;
+}
+.media{
+   bottom: 14%;
+   right: 25%;
+}
+/*110
+300*/
+.media span{
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+
+@media screen and (max-width:1300px) {
+    .we{
+        margin-top:100px;
+    }
+    .we .big{
+        font-size: 84px;
+       
+    }
+    .we .small{
+    font-size: 30px;
+      left: 40%;
+    }   
+    .we p{
+       font-size: 8px;
+    }
+    
+}
+
+/*end we*/
