@@ -1,5 +1,4 @@
 body {
-    height: 5000px;
     background-image: url(../img/public/background.webp);
     background-size: cover;
 }
@@ -18,7 +17,8 @@ body {
 .secondary-font {
     font-family: var(--secondaryfont);
 }
-.p-section{
+
+.p-section {
     padding: 50px 0;
 }
 
@@ -70,9 +70,11 @@ body {
 .nav-icon ul {
     list-style-type: none;
 }
-.nav-icon .dropdown-menu{
-    top:100px;
+
+.nav-icon .dropdown-menu {
+    top: 100px;
 }
+
 .dropdown-menu h1 {
     font-weight: bold;
 }
@@ -124,7 +126,7 @@ body {
     background-image: url(../img/public/hero.webp);
     background-size: cover;
     background-position: center;
-    
+
 
 }
 
@@ -154,22 +156,25 @@ body {
     .hero {
         top: 159px;
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 80px;
     }
 }
 
 @media screen and (max-width:550px) {
-    .hero{
+    .hero {
         padding-top: 20px;
     }
-    .hero h1{
+
+    .hero h1 {
         font-size: 50px;
     }
-    .hero-content img{
+
+    .hero-content img {
         width: 150px;
     }
-    
+
 }
 
 /*end hero*/
@@ -177,57 +182,92 @@ body {
 
 
 /*start we*/
-.we{
-   background-image: ("who.webp");
+.we {
+    background-image: ("who.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 70px 0;
-    
+
 }
 
-.we .big{
+.we .big {
     font-size: 146px;
     color: #ccd8dd;
 }
-.we .small{
+
+.we .small {
     font-size: 56px;
     top: 32%;
     left: 35%;
 }
+
 /*top: 116px;
     left: 403px;*/
-.we p{
+.we p {
     font-size: 14px;
 }
-.media{
-   bottom: 14%;
-   right: 25%;
+
+.media {
+    bottom: 14%;
+    right: 25%;
 }
+
 /*110
 300*/
-.media span{
+.media span {
     font-size: 14px;
     color: #d3d3d3;
 }
 
 
 @media screen and (max-width:1300px) {
-    .we{
-        margin-top:100px;
+    .we {
+        margin-top: 100px;
     }
-    .we .big{
+
+    .we .big {
         font-size: 84px;
-       
+
     }
-    .we .small{
-    font-size: 30px;
-      left: 40%;
-    }   
-    .we p{
-       font-size: 8px;
+
+    .we .small {
+        font-size: 30px;
+        left: 40%;
     }
-    
+
+    .we p {
+        font-size: 8px;
+    }
+
 }
 
 /*end we*/
+
+
+
+/*start clients*/
+.clients {
+    padding: 50px 0;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-left: auto;
+}
+
+.clients .logo {
+    width: calc((100% - 75px) / 6);
+}
+
+.clients img {
+    width: 200px;
+    height: 120px;
+}
+
+@media screen and (max-width:1120px) {
+
+    .clients .logo {
+        width: calc((100% - 30px) / 3);
+    }
+}
+
+/*end clients*/
