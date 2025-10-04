@@ -72,7 +72,11 @@ body {
 }
 
 .nav-icon .dropdown-menu {
-    top: 100px;
+    width: 25%;
+    top: 70%;
+    right: 2%;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 .dropdown-menu h1 {
@@ -98,6 +102,12 @@ body {
     background-color: #fff;
 }
 
+@media screen and (max-width:1016px) {
+    .nav-icon .dropdown-menu {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width:992px) {
     .navbar {
         position: sticky;
@@ -115,6 +125,12 @@ body {
 
 }
 
+@media screen and (max-width:498px) {
+    .nav-icon .dropdown-menu {
+        width: 100%;
+    }
+}
+
 
 
 /*end header*/
@@ -125,7 +141,9 @@ body {
 .hero {
     background-image: url(../img/public/hero.webp);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
 
 
 }
@@ -155,6 +173,11 @@ body {
 @media screen and (max-width:1314px) {
     .hero {
         top: 159px;
+
+    }
+
+    .hero-content {
+        margin-top: 5px;
     }
 
     .hero h1 {
@@ -185,7 +208,7 @@ body {
 .we {
     background-image: ("who.webp");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     padding: 70px 0;
 
@@ -237,9 +260,90 @@ body {
     }
 
     .we p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .we p {
+        max-width: 700px;
+        max-height: 108px;
+    }
+
+    .media {
+        bottom: 12%;
+        right: 20%;
+    }
+
+    .media img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:777px) {
+    .we .big {
+        font-size: 60px;
+    }
+
+    .we .small {
+        font-size: 25px;
+        top:35%;
+        left: 40%;
+    }
+    .we p {
         font-size: 8px;
     }
 
+}
+@media screen and (max-width:690px) {
+
+   .media {
+        bottom: 10%;
+        right: 5%;
+    }
+}
+@media screen and (max-width:630px) {
+ .we .big {
+        font-size: 50px;
+    }
+    .we .small {
+        font-size: 20px;
+        top:35%;
+        left: 40%;
+    }
+    .we p {
+        font-size: 8px;
+    }
+   
+}
+@media screen and (max-width:493px) {
+ .we .big {
+        font-size: 40px;
+    }
+    .we .small {
+        font-size: 15px;
+        top:40%;
+        left: 40%;
+    }
+    .we p {
+        font-size: 5px;
+    }
+   
+}
+@media screen and (max-width:376px) {
+ .we .big {
+        font-size: 40px;
+    }
+    .we .small {
+        font-size: 15px;
+        top:45%;
+        left: 35%;
+    }
+    .we p {
+        font-size: 3px;
+    }
+   
 }
 
 /*end we*/
@@ -269,6 +373,7 @@ body {
         width: calc((100% - 30px) / 3);
     }
 }
+
 @media screen and (max-width:520px) {
 
     .clients .logo {
@@ -282,47 +387,53 @@ body {
 
 /* start Leatest Blog*/
 .latest-blog {
-  padding: 70px 0;
+    padding: 70px 0;
 }
 
-.latest-blog h2{
-  font-size: 60px;
+.latest-blog h2 {
+    font-size: 60px;
 }
 
 .latest-blog .blog {
-  flex: 1 0 100px;
-  width: 400px;
-  height: 558px;
-  gap:15px;
+    flex: 1 0 100px;
+    width: 400px;
+    height: 558px;
+    gap: 15px;
 }
+
 .blog .blog-img img {
-  width: 350px;
-  height: 245px;
+    width: 350px;
+    height: 245px;
 }
-.blog .blog-info{
+
+.blog .blog-info {
     color: #808080;
 }
-.blog svg{
+
+.blog svg {
     fill: #808080;
 }
-.blog h3{
-color: black;
-  transition: all 0.5s;
+
+.blog h3 {
+    color: black;
+    transition: all 0.5s;
 }
+
 .blog:hover h3 {
-color: var(--maincolor);
+    color: var(--maincolor);
 }
 
 @media screen and (max-width:1200px) {
-  .blog .blog-img img{
-     width: 300px;
-  height: 235px;
-  }
+    .blog .blog-img img {
+        width: 300px;
+        height: 235px;
+    }
 }
+
 @media screen and (max-width:992px) {
-  .latest-blog .blog{
-   padding: 20px 0;
-  }
+    .latest-blog .blog {
+        padding: 20px 0;
+    }
 }
 
 
