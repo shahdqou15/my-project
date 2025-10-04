@@ -269,5 +269,61 @@ body {
         width: calc((100% - 30px) / 3);
     }
 }
+@media screen and (max-width:520px) {
+
+    .clients .logo {
+        width: calc((100% - 15px) / 2);
+    }
+}
 
 /*end clients*/
+
+
+
+/* start Leatest Blog*/
+.latest-blog {
+  padding: 70px 0;
+}
+
+.latest-blog h2{
+  font-size: 60px;
+}
+
+.latest-blog .blog {
+  flex: 1 0 100px;
+  width: 400px;
+  height: 558px;
+  gap:15px;
+}
+.blog .blog-img img {
+  width: 350px;
+  height: 245px;
+}
+.blog .blog-info{
+    color: #808080;
+}
+.blog svg{
+    fill: #808080;
+}
+.blog h3{
+color: black;
+  transition: all 0.5s;
+}
+.blog:hover h3 {
+color: var(--maincolor);
+}
+
+@media screen and (max-width:1200px) {
+  .blog .blog-img img{
+     width: 300px;
+  height: 235px;
+  }
+}
+@media screen and (max-width:992px) {
+  .latest-blog .blog{
+   padding: 20px 0;
+  }
+}
+
+
+/*end Leatest Blog*/
