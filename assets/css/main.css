@@ -225,8 +225,6 @@ body {
     left: 35%;
 }
 
-/*top: 116px;
-    left: 403px;*/
 .we p {
     font-size: 14px;
 }
@@ -236,8 +234,6 @@ body {
     right: 25%;
 }
 
-/*110
-300*/
 .media span {
     font-size: 14px;
     color: #d3d3d3;
@@ -288,62 +284,73 @@ body {
 
     .we .small {
         font-size: 25px;
-        top:35%;
+        top: 35%;
         left: 40%;
     }
+
     .we p {
         font-size: 8px;
     }
 
 }
+
 @media screen and (max-width:690px) {
 
-   .media {
+    .media {
         bottom: 10%;
         right: 5%;
     }
 }
+
 @media screen and (max-width:630px) {
- .we .big {
+    .we .big {
         font-size: 50px;
     }
+
     .we .small {
         font-size: 20px;
-        top:35%;
+        top: 35%;
         left: 40%;
     }
+
     .we p {
         font-size: 8px;
     }
-   
+
 }
+
 @media screen and (max-width:493px) {
- .we .big {
+    .we .big {
         font-size: 40px;
     }
+
     .we .small {
         font-size: 15px;
-        top:40%;
+        top: 40%;
         left: 40%;
     }
+
     .we p {
         font-size: 5px;
     }
-   
+
 }
+
 @media screen and (max-width:376px) {
- .we .big {
+    .we .big {
         font-size: 40px;
     }
+
     .we .small {
         font-size: 15px;
-        top:45%;
+        top: 45%;
         left: 35%;
     }
+
     .we p {
         font-size: 3px;
     }
-   
+
 }
 
 /*end we*/
@@ -438,3 +445,79 @@ body {
 
 
 /*end Leatest Blog*/
+
+
+
+/*start footer*/
+.footer {
+    padding: 90px 0;
+    background-image: url(../img/public/BG-footer.webp);
+    background-size: cover cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.footer a:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer .right-side {
+    background-image: url(../img/public/new-letter.webp);
+    background-size: cover;
+    background-position: center;
+}
+.mail{  
+        width: 100%;
+    }
+
+@media screen and (max-width:992px) {
+    .footer{
+        text-align: center;
+       
+    }
+    .footer .left-side{
+        padding-bottom: 20px;
+    }
+    .social-text{
+       justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:770px) {
+    
+   .footer-item{
+    padding: 20px 0;
+   }
+    
+}
+@media screen and (max-width:470px) {
+    
+   .footer .right-side{
+        background: none;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .newsletter{
+        gap:5px
+    }
+    .mail{
+       padding: 0;
+        width: 75%;
+    }
+    
+}
+
+/*end footer*/
