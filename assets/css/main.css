@@ -22,6 +22,10 @@ body {
     padding: 50px 0;
 }
 
+yl {
+    list-style-type: none;
+}
+
 /*start header*/
 .navbar {
     padding: 20px 0;
@@ -184,11 +188,13 @@ body {
         font-size: 80px;
     }
 }
+
 @media screen and (max-width:780px) {
     .hero {
         background-position: -50px 0;
     }
 }
+
 @media screen and (max-width:550px) {
     .hero {
         padding-top: 20px;
@@ -362,6 +368,26 @@ body {
 
 
 
+
+/*start collection*/
+
+.collection .sale-side {
+    background-image: url(../img/collection/collection.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -45px 40px;
+}
+
+.sale-side h1 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+
+/*end collection*/
+
+
+
 /*start clients*/
 .clients {
     padding: 50px 0;
@@ -482,47 +508,54 @@ body {
     background-size: cover;
     background-position: center;
 }
-.mail{  
-        width: 100%;
-    }
+
+.mail {
+    width: 100%;
+}
 
 @media screen and (max-width:992px) {
-    .footer{
+    .footer {
         text-align: center;
-       
+
     }
-    .footer .left-side{
+
+    .footer .left-side {
         padding-bottom: 20px;
     }
-    .social-text{
-       justify-content: center;
+
+    .social-text {
+        justify-content: center;
         align-items: center;
     }
 }
+
 @media screen and (max-width:770px) {
-    
-   .footer-item{
-    padding: 20px 0;
-   }
-    
+
+    .footer-item {
+        padding: 20px 0;
+    }
+
 }
+
 @media screen and (max-width:470px) {
-    
-   .footer .right-side{
+
+    .footer .right-side {
         background: none;
         width: 50%;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .newsletter{
-        gap:5px
+
+    .newsletter {
+        gap: 5px
     }
-    .mail{
-       padding: 0;
+
+    .mail {
+        padding: 0;
         width: 75%;
     }
-    
+
 }
 
 /*end footer*/
