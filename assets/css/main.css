@@ -22,8 +22,8 @@ body {
     padding: 50px 0;
 }
 
-yl {
-    list-style-type: none;
+.bg-maincolor {
+    background-color: var(--maincolor);
 }
 
 /*start header*/
@@ -370,12 +370,17 @@ yl {
 
 
 /*start collection*/
+.collection h2 {
+    font-size: 60px;
+    font-weight: 400px;
+}
 
 .collection .sale-side {
     background-image: url(../img/collection/collection.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -45px 40px;
+    height: 862px;
 }
 
 .sale-side h1 {
@@ -383,6 +388,60 @@ yl {
     font-weight: 400;
 }
 
+.p a {
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.products .card a:hover {
+    color: var(--maincolor);
+}
+
+.products .card span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-img {
+    transition: all 0.5s;
+}
+
+.card-img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.note {
+    right: 0;
+}
+
+.img-icons {
+    top: 42%;
+    left: 12%;
+}
+
+.img-icons .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.card-img:hover .img-icons .icon {
+    opacity: 1;
+}
+
+.img-icons .icon path {
+    transition: all 0.5s;
+}
+
+.img-icons .icon:hover path {
+    fill: #000000;
+}
+
+@media screen and (max-width:1000px) {}
 
 /*end collection*/
 
