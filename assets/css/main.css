@@ -441,10 +441,53 @@ body {
     fill: #000000;
 }
 
-@media screen and (max-width:1000px) {}
 
 /*end collection*/
+.holiday h2 {
+    font-size: 60px;
+    font-weight: 400px;
+}
 
+.holiday .first-para {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 70px;
+}
+
+.holiday .sale-side {
+    background-image: url(../img/holiday-section/holiday-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -28px 2px;
+    height: 862px;
+}
+
+.holiday .sale30 {
+    font-size: 115px;
+    font-weight: 400px;
+}
+
+.holiday .persent {
+    font-size: 60px;
+    font-weight: 400;
+    top: 30px;
+    right: -40px;
+}
+
+.holiday .off {
+    font-size: 36px;
+    font-weight: 400;
+    bottom: 29px;
+    right: -63px;
+}
+
+/*start holiday*/
+
+
+
+
+
+/*end holiday*/
 
 
 /*start clients*/
