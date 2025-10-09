@@ -76,6 +76,13 @@ body {
     list-style-type: none;
 }
 
+.nav-icon .num-cart {
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: -35%;
+}
+
 .nav-icon .dropdown-menu {
     width: 25%;
     top: 70%;
@@ -393,9 +400,11 @@ body {
     font-size: 16px;
     transition: all 0.5s;
 }
-.card{
+
+.card {
     background: none;
 }
+
 .products .card a:hover {
     color: var(--maincolor);
 }
@@ -449,27 +458,30 @@ body {
 
 
 /*start wedding*/
-.wedding{
+.wedding {
     background-image: url(../img/wedding-section/wedding-bg.webp);
     background-size: cover;
     background-repeat: repeat;
     background-position: 23px 124px;
 }
+
 .wedding h2 {
     font-size: 60px;
     font-weight: 400px;
 }
-.wedding p{
+
+.wedding p {
     padding-bottom: 70px;
 }
 
 @media screen and (max-width:1200px) {
-    .wedding{
-        background-position: -378px 137px ;
+    .wedding {
+        background-position: -378px 137px;
     }
 }
+
 @media screen and (max-width:776px) {
-    .wedding{
+    .wedding {
         background: none;
     }
 }
@@ -496,8 +508,11 @@ body {
     background-repeat: no-repeat;
     background-position: -28px 2px;
     height: 862px;
+    margin-top: -40px;
 }
-
+.holiday .sales{
+    margin-top: -30px;
+}
 .holiday .sale30 {
     font-size: 115px;
     font-weight: 400px;
@@ -516,6 +531,7 @@ body {
     bottom: 29px;
     right: -63px;
 }
+
 /*end holiday*/
 
 
@@ -604,6 +620,11 @@ body {
         padding: 20px 0;
     }
 }
+@media screen and (max-width:580px) {
+    .latest-blog .blog {
+        margin-left: 7px;
+    }
+}
 
 
 /*end Leatest Blog*/
@@ -633,7 +654,9 @@ body {
     color: #000000;
     font-weight: bold;
 }
-
+.social a:hover path{
+    fill:#808080;
+}
 .footer .right-side {
     background-image: url(../img/public/new-letter.webp);
     background-size: cover;
@@ -662,6 +685,9 @@ body {
 
 @media screen and (max-width:770px) {
 
+    .footer{
+        background-position: -390px -390px;
+    }
     .footer-item {
         padding: 20px 0;
     }
@@ -669,6 +695,9 @@ body {
 }
 
 @media screen and (max-width:470px) {
+    .footer{
+        background-position: -500px -390px;
+    }
 
     .footer .right-side {
         background: none;

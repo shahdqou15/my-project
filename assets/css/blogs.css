@@ -22,12 +22,13 @@
 .footer .right-side{
     width: 35%;
     background: none;
+  
 }
 .footer svg{
     fill:#e0e0e0;
-    background-color: #e0e0e036; 
-    border-radius: 50%;
+    background-color: #e0e0e036;  
     margin: 5px;
+    border-radius: 50%;
 }
 @media screen and (max-width:992px) {
   
