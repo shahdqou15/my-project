@@ -454,18 +454,20 @@ body {
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    .collection .row{
-       margin-left:-45px;
+    .collection .row {
+        margin-left: -45px;
     }
-    .collection .products .row{
-       margin-left: -25px;
-       margin-right: -25px;
+
+    .collection .products .row {
+        margin-left: -25px;
+        margin-right: -25px;
     }
-    
+
 }
+
 @media screen and (max-width:486px) {
-    .collection .sale-side{
-        background-position: -70px 40px ;
+    .collection .sale-side {
+        background-position: -70px 40px;
     }
 }
 
@@ -493,15 +495,17 @@ body {
     .wedding {
         background-position: -378px 137px;
     }
-    .wedding .products .card{
-       padding: 0 5px;
+
+    .wedding .products .card {
+        padding: 0 5px;
     }
 }
+
 @media screen and (min-width:765px) and (max-width:992px) {
 
-    .wedding .products .card{
-       margin: 0 -20px;
-       padding: 0 35px ;
+    .wedding .products .card {
+        margin: 0 -20px;
+        padding: 0 35px;
     }
 }
 
@@ -510,10 +514,11 @@ body {
         background: none;
     }
 }
+
 @media screen and (max-width:575px) {
 
-    .products .card{
-       margin: 0 auto ;
+    .products .card {
+        margin: 0 auto;
     }
 }
 
@@ -541,9 +546,11 @@ body {
     height: 862px;
     margin-top: -40px;
 }
-.holiday .sales{
+
+.holiday .sales {
     margin-top: -30px;
 }
+
 .holiday .sale30 {
     font-size: 115px;
     font-weight: 400px;
@@ -564,21 +571,95 @@ body {
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    .holiday .row{
-       margin-left:-45px;
+    .holiday .row {
+        margin-left: -45px;
     }
-    .holiday .products .row{
-       margin-left: -25px;
-       margin-right: -25px;
+
+    .holiday .products .row {
+        margin-left: -25px;
+        margin-right: -25px;
     }
-    
+
 }
+
 @media screen and (max-width:486px) {
-    .holiday .sale-side{
-        background-position: -70px 40px ;
+    .holiday .sale-side {
+        background-position: -70px 40px;
     }
 }
+
 /*end holiday*/
+
+
+/*start count*/
+.count {
+    background-image: url(../img/count-section/counter.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -49px;
+    padding: 100px 0;
+
+}
+
+.count-title {
+    align-items: flex-start;
+    margin-left: 653px;
+}
+
+.count h2 {
+    font-size: 60px;
+}
+
+@media screen and (max-width:1200px) {
+    .count {
+        background-position: 0px -49px;
+    }
+
+    .count-title {
+        margin-left: 600px;
+    }
+}
+
+@media screen and (max-width:996px) {
+    .count-title {
+        margin-left: 470px;
+    }
+
+    .count p {
+        display: none;
+    }
+}
+
+@media screen and (max-width:872px) {
+    .count {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .count-title {
+
+        margin-left: 370px;
+    }
+
+    .count-title h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .count {
+        background: none;
+        background-color: #dbe7ed;
+    }
+
+    .count-title {
+        align-items: center;
+        margin-left: 20px;
+    }
+
+}
+
+/*end count*/
 
 
 /*start clients*/
@@ -666,6 +747,7 @@ body {
         padding: 20px 0;
     }
 }
+
 @media screen and (max-width:580px) {
     .latest-blog .blog {
         margin-left: 7px;
@@ -700,9 +782,11 @@ body {
     color: #000000;
     font-weight: bold;
 }
-.social a:hover path{
-    fill:#808080;
+
+.social a:hover path {
+    fill: #808080;
 }
+
 .footer .right-side {
     background-image: url(../img/public/new-letter.webp);
     background-size: cover;
@@ -731,9 +815,10 @@ body {
 
 @media screen and (max-width:770px) {
 
-    .footer{
+    .footer {
         background-position: -390px -390px;
     }
+
     .footer-item {
         padding: 20px 0;
     }
@@ -741,7 +826,7 @@ body {
 }
 
 @media screen and (max-width:470px) {
-    .footer{
+    .footer {
         background-position: -500px -390px;
     }
 
