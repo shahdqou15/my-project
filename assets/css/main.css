@@ -453,6 +453,21 @@ body {
     fill: #000000;
 }
 
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .collection .row{
+       margin-left:-45px;
+    }
+    .collection .products .row{
+       margin-left: -25px;
+       margin-right: -25px;
+    }
+    
+}
+@media screen and (max-width:486px) {
+    .collection .sale-side{
+        background-position: -70px 40px ;
+    }
+}
 
 /*end collection*/
 
@@ -474,15 +489,31 @@ body {
     padding-bottom: 70px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (min-width:992px) and (max-width:1200px) {
     .wedding {
         background-position: -378px 137px;
+    }
+    .wedding .products .card{
+       padding: 0 5px;
+    }
+}
+@media screen and (min-width:765px) and (max-width:992px) {
+
+    .wedding .products .card{
+       margin: 0 -20px;
+       padding: 0 35px ;
     }
 }
 
 @media screen and (max-width:776px) {
     .wedding {
         background: none;
+    }
+}
+@media screen and (max-width:575px) {
+
+    .products .card{
+       margin: 0 auto ;
     }
 }
 
@@ -532,6 +563,21 @@ body {
     right: -63px;
 }
 
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .holiday .row{
+       margin-left:-45px;
+    }
+    .holiday .products .row{
+       margin-left: -25px;
+       margin-right: -25px;
+    }
+    
+}
+@media screen and (max-width:486px) {
+    .holiday .sale-side{
+        background-position: -70px 40px ;
+    }
+}
 /*end holiday*/
 
 
