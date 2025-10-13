@@ -1,42 +1,131 @@
+:root {
+    font-size: 16px;
+}
+
+
 /*start header*/
-@media screen and (max-width:620px){
-   .navbar{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-   }
+@media screen and (max-width:620px) {
+    .navbar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 
 
 /*end header*/
+
+/*start hero*/
+.shop-hero {
+    background-image: ("shop-bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0 100px; */
+    top: 48px;
+}
+
+.shop-hero-content {
+    top: 12px;
+    left: 105px;
+    align-items: flex-start;
+}
+
+.shop-hero-content h1 {
+    font-size: 3.7rem;
+}
+
+.main-button .btn {
+    margin-top: 0;
+}
+
+@media screen and (max-width:992px) {
+    :root {
+        font-size: 12px;
+    }
+
+    .shop-hero-content {
+        top: 5px;
+    }
+}
+
+@media screen and (max-width:772px) {
+    :root {
+        font-size: 10px;
+    }
+
+    .shop-hero-content {
+        top: -50px;
+        left: 90px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    :root {
+        font-size: 8px;
+    }
+
+    .shop-hero-content {
+        top: -85px;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width:472px) {
+    :root {
+        font-size: 6px;
+    }
+
+    .shop-hero-content {
+        top: -115px;
+        left: 40px;
+    }
+
+    .main-button .btn {
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+}
+
+
+
+
+/*end hero*/
+
+
+
 /*start footer*/
-.footer{
+.footer {
     background: none;
     width: 100%;
 }
-.footer .left-side{
+
+.footer .left-side {
     width: 65%;
 }
-.footer .right-side{
+
+.footer .right-side {
     width: 35%;
     background: none;
 }
-.footer svg{
-    fill:#e0e0e0;
-    background-color: #e0e0e036; 
+
+.footer svg {
+    fill: #e0e0e0;
+    background-color: #e0e0e036;
     border-radius: 50%;
     margin: 5px;
 }
+
 @media screen and (max-width:992px) {
-  
-    .footer .left-side ,
-    .footer .right-side{
+
+    .footer .left-side,
+    .footer .right-side {
         width: 100%;
     }
-    .social-text{
-       justify-content: center;
+
+    .social-text {
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
