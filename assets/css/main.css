@@ -761,10 +761,10 @@ body {
 
 /*start footer*/
 .footer {
-    padding: 180px 0;
+    padding-top: 50px;  
     background-image: url(../img/public/BG-footer.webp);
     background-size: cover cover;
-    background-position: -284px -390px;
+    background-position: -634px -452px;
     background-repeat: no-repeat;
 
 
