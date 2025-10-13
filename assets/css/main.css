@@ -30,6 +30,7 @@ body {
 /*start header*/
 .navbar {
     padding: 20px 0;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 10px;
 
 }
 
