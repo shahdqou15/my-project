@@ -1,6 +1,9 @@
-:root {
+/* :root {
+
     font-size: 16px;
-}
+
+
+} */
 
 
 /*start header*/
@@ -22,7 +25,6 @@
     background-image: ("shop-bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: 0 100px; */
     top: 48px;
 }
 
@@ -33,7 +35,11 @@
 }
 
 .shop-hero-content h1 {
-    font-size: 3.7rem;
+    font-size: 60px;
+}
+
+.shop-hero-content p {
+    font-size: 30px;
 }
 
 .main-button .btn {
@@ -41,45 +47,56 @@
 }
 
 @media screen and (max-width:992px) {
-    :root {
-        font-size: 12px;
-    }
-
     .shop-hero-content {
         top: 5px;
+    }
+
+    .shop-hero-content h1 {
+        font-size: 50px;
     }
 }
 
 @media screen and (max-width:772px) {
-    :root {
-        font-size: 10px;
-    }
-
     .shop-hero-content {
         top: -50px;
         left: 90px;
     }
+
+    .shop-hero-content h1 {
+        font-size: 35px;
+    }
+
 }
 
 @media screen and (max-width:600px) {
-    :root {
-        font-size: 8px;
-    }
-
     .shop-hero-content {
         top: -85px;
         left: 60px;
     }
+
+    .shop-hero-content h1 {
+        font-size: 25px;
+    }
+
+    .shop-hero-content p {
+        font-size: 15px;
+    }
+
+
 }
 
 @media screen and (max-width:472px) {
-    :root {
-        font-size: 6px;
-    }
-
     .shop-hero-content {
         top: -115px;
         left: 40px;
+    }
+
+    .shop-hero-content h1 {
+        font-size: 20px;
+    }
+
+    .shop-hero-content p {
+        font-size: 10px;
     }
 
     .main-button .btn {
@@ -95,8 +112,126 @@
 
 
 
+
+/*start shop-products*/
+
+.show {
+    padding-bottom: 30px;
+}
+
+.show .right {
+    justify-content: end;
+}
+
+.show button a {
+    cursor: pointer;
+}
+
+.show button a:hover {
+    background-color: #000;
+}
+
+.select {
+    background: none;
+}
+
+/*****/
+
+.shop-products {
+    padding: 20px 0;
+    padding-bottom: 50px;
+}
+
+.shop-products .card a:hover {
+    color: var(--maincolor);
+}
+
+.shop-products .card span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.card-img img {
+    object-fit: cover;
+}
+
+.card-body a {
+    white-space: nowrap;
+}
+
+.img-icons {
+    top: 40%;
+    left: 6%;
+}
+
+/*******/
+.page-item .page-link {
+    color: #000;
+    background: none;
+    border: none;
+    background-color: #eeeeee;
+
+}
+
+.page-item .page-link:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.page-item .page-link:focus {
+    color: #fff;
+    background-color: #000;
+    box-shadow: none;
+}
+
+
+@media screen and (max-width:1200px) {
+    .card {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .card {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .card {
+        width: 250px;
+        margin: 0 auto;
+
+    }
+}
+
+@media screen and (max-width:770px) {
+    .show .left {
+        margin-bottom: 10px;
+    }
+
+    .show span {
+        display: none;
+    }
+
+    .show .right {
+        justify-content: start;
+    }
+}
+
+/*end shop-products*/
+
+
+
+
 /*start footer*/
 .footer {
+    padding-top: 50px;
     background: none;
     width: 100%;
 }
