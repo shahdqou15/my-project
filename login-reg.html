@@ -224,22 +224,117 @@
         <section class="login-hero p-section position-relative">
             <div class="container">
                 <img src="./assets/img/public/flower-bg.webp" width="100%" />
-                <div class="login-hero-content d-flex flex-column justify-content-center align-items-center vh-100 position-absolute">
+                <div
+                    class="login-hero-content d-flex flex-column justify-content-center align-items-center vh-100 position-absolute">
                     <h1 class="secondary-font text-white">Login/Register</h1>
                     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
                         aria-label="breadcrumb">
                         <ol class="breadcrumb main-font fs-6">
-                            <li class="breadcrumb-item"><a href="./index.html" class="text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item"><a href="./index.html" class="text-decoration-none">Home</a>
+                            </li>
                             <li class="breadcrumb-item active" aria-current="page">Login/Register</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </section>
+
+
+        <section class="login-reg main-font">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-6 col-sm-12 login-side d-flex flex-column align-items-start gap-4">
+                        <h2 class="fs-6 fw-bold">SIGN IN</h2>
+                        <p class="text-secondary">Hello, welcome to your account</p>
+                        <div class="social-btn w-100">
+                            <div class="d-grid gap-2 d-flex justify-content-between">
+                                <button class="btn face-btn d-flex align-items-center gap-1" type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18"
+                                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                        <path fill="#ffffff"
+                                            d="M240 363.3L240 576L356 576L356 363.3L442.5 363.3L460.5 265.5L356 265.5L356 230.9C356 179.2 376.3 159.4 428.7 159.4C445 159.4 458.1 159.8 465.7 160.6L465.7 71.9C451.4 68 416.4 64 396.2 64C289.3 64 240 114.5 240 223.4L240 265.5L174 265.5L174 363.3L240 363.3z" />
+                                    </svg>
+                                    <a href="#" class="text-white text-decoration-none">SIGN IN WITH
+                                        FACEBOOK</a></button>
+                                <button class="btn bg-primary twitter-btn d-flex align-items-center gap-1"
+                                    type="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="18" width="18"
+                                        viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                        <path fill="#ffffff"
+                                            d="M523.4 215.7C523.7 220.2 523.7 224.8 523.7 229.3C523.7 368 418.1 527.9 225.1 527.9C165.6 527.9 110.4 510.7 64 480.8C72.4 481.8 80.6 482.1 89.3 482.1C138.4 482.1 183.5 465.5 219.6 437.3C173.5 436.3 134.8 406.1 121.5 364.5C128 365.5 134.5 366.1 141.3 366.1C150.7 366.1 160.1 364.8 168.9 362.5C120.8 352.8 84.8 310.5 84.8 259.5L84.8 258.2C98.8 266 115 270.9 132.2 271.5C103.9 252.7 85.4 220.5 85.4 184.1C85.4 164.6 90.6 146.7 99.7 131.1C151.4 194.8 229 236.4 316.1 240.9C314.5 233.1 313.5 225 313.5 216.9C313.5 159.1 360.3 112 418.4 112C448.6 112 475.9 124.7 495.1 145.1C518.8 140.6 541.6 131.8 561.7 119.8C553.9 144.2 537.3 164.6 515.6 177.6C536.7 175.3 557.2 169.5 576 161.4C561.7 182.2 543.8 200.7 523.4 215.7z" />
+                                    </svg>
+                                    <a href="#" class="text-white text-decoration-none ">SIGN IN WITH
+                                        TWITTER</a></button>
+                            </div>
+                        </div>
+                        <form class="w-100">
+                            <div class="email d-flex flex-column gap-3">
+                                <label class="fs-6 fw-bold">EMAIL ADDRESS*</label>
+                                <div class="input-group mb-3">
+                                    <input type="email" class="form-control" placeholder="Your email"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="pass d-flex flex-column gap-2">
+                                <label class="fs-6 fw-bold">PASSWORD*</label>
+                                <div class="input-group">
+                                    <input type="password" class="form-control" placeholder="Password"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="remember d-flex justify-content-between">
+                                <div>
+                                    <input type="checkbox">
+                                    <label class="text-secondary">remember me!</label>
+                                </div>
+                                <a href="#">Forget Your Password?</a>
+                            </div>
+                            <div class="main-button secondary-font mt-3">
+                                <a href="#"><button type="button" class="btn btn-dark m-0">LOGIN NOW</button></a>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <div class="col-md-6 col-sm-12 register-side d-flex flex-column align-items-start gap-4">
+                        <h2 class="fs-6 fw-bold">CREATE A NEW ACCOUNT</h2>
+                        <p class="text-secondary">Create your own Rimbus account.</p>
+                        <form class="w-100">
+                            <div class="email d-flex flex-column gap-3">
+                                <label class="fs-6 fw-bold">EMAIL ADDRESS*</label>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Your email"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+
+                                </div>
+                                <div class="main-button secondary-font ">
+                                    <a href="#"><button type="button" class="btn btn-dark m-0">Sign Up</button></a>
+                                </div>
+                            </div>
+                            <div class="mt-5"><span class="fs-6 fw-bold">SIGN UP TODAY</span></div>
+                            <div class="d-flex flex-column gap-3 mt-5">
+                                <div>
+                                    <input type="checkbox">
+                                    <label class="text-secondary">Speed your way through the checkout.</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label class="text-secondary">Track your orders easily.</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox">
+                                    <label class="text-secondary">Keep a record of all purchases.</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
-
+<hr>
 
     <footer class="footer text-black">
         <div class="container">
