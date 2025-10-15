@@ -123,16 +123,33 @@
     justify-content: end;
 }
 
-.show button a {
+.show a {
+    color: #000;
     cursor: pointer;
 }
 
-.show button a:hover {
+.show .left button:hover {
+    color: #fff;
     background-color: #000;
+}
+
+.show .left button:hover svg {
+    width: 25px;
+    height: 25px;
+}
+
+.show .left button:hover svg path {
+    fill: #fff;
 }
 
 .select {
     background: none;
+    cursor: pointer;
+}
+
+.option:hover {
+    color: var(--maincolor);
+    background-color: #fff;
 }
 
 /*****/
@@ -156,8 +173,21 @@
     margin-bottom: 10px;
 }
 
+.card-img {
+    height: 50%;
+}
+
 .card-img img {
+    height: 100%;
     object-fit: cover;
+}
+.card-body{
+    height: 50%;
+}
+
+.card-body a,
+.card-body ul {
+    margin-bottom: 4px;
 }
 
 .card-body a {
