@@ -11,6 +11,61 @@
 
 
 /*end header*/
+
+
+/*start hero*/
+.cart-hero {
+    background-image: ("flower-bg.webp");
+    background-size: cover;
+    top: 48px;
+}
+
+.cart-hero-content {
+    top: -7%;
+    left: 35%;
+}
+
+.cart-hero-content h1 {
+    font-size: 60px;
+}
+
+.cart-hero-content .breadcrumb-item,
+.cart-hero-content a {
+    color: #f4f4f4c0;
+}
+
+@media screen and (max-width:992px) {
+    .cart-hero-content {
+        left: 30%;
+    }
+    .cart-hero-content h1 {
+    font-size: 40px;
+}
+}
+@media screen and (max-width:778px) {
+    .cart-hero-content {
+        top: -20%;
+        left: 30%;
+    }
+    .cart-hero-content h1 {
+    font-size: 30px;
+}
+}
+@media screen and (max-width:489px) {
+    .cart-hero-content {
+        top: -35%;
+        left: 25%;
+    }
+    .cart-hero-content h1 {
+    font-size: 30px;
+}
+}
+
+/*end hero*/
+
+
+
+
 /*start footer*/
 .footer{
     background: none;

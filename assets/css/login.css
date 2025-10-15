@@ -1,42 +1,100 @@
 /*start header*/
-@media screen and (max-width:620px){
-   .navbar{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-   }
+@media screen and (max-width:620px) {
+    .navbar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 
 
 /*end header*/
+
+
+/*start hero*/
+.login-hero {
+    background-image: ("flower-bg.webp");
+    background-size: cover;
+    top: 48px;
+}
+
+.login-hero-content {
+    top: -7%;
+    left: 35%;
+}
+
+.login-hero-content h1 {
+    font-size: 60px;
+}
+
+.login-hero-content .breadcrumb-item,
+.login-hero-content a {
+    color: #f4f4f4c0;
+}
+
+@media screen and (max-width:992px) {
+    .login-hero-content {
+        left: 30%;
+    }
+    .login-hero-content h1 {
+    font-size: 40px;
+}
+}
+@media screen and (max-width:778px) {
+    .login-hero-content {
+        top: -20%;
+        left: 30%;
+    }
+    .login-hero-content h1 {
+    font-size: 30px;
+}
+}
+@media screen and (max-width:489px) {
+    .login-hero-content {
+        top: -35%;
+        left: 25%;
+    }
+    .login-hero-content h1 {
+    font-size: 30px;
+}
+}
+
+/*end hero*/
+
+
 /*start footer*/
-.footer{
+.footer {
     background: none;
     width: 100%;
 }
-.footer .left-side{
+
+.footer .left-side {
     width: 65%;
 }
-.footer .right-side{
+
+.footer .right-side {
     width: 35%;
     background: none;
 }
-.footer svg{
-    fill:#e0e0e0;
-    background-color: #e0e0e036; 
+
+.footer svg {
+    fill: #e0e0e0;
+    background-color: #e0e0e036;
     border-radius: 50%;
     margin: 5px;
 }
+
 @media screen and (max-width:992px) {
-  
-    .footer .left-side ,
-    .footer .right-side{
+
+    .footer .left-side,
+    .footer .right-side {
         width: 100%;
     }
-    .social-text{
-       justify-content: center;
+
+    .social-text {
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
