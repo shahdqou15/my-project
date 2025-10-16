@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="An online flower shop offering the most beautiful blooms and bouquet arrangements in a modern style. Shop now and enjoy a delightful shopping experience with an elegant and user-friendly interface.">
-    <title>Home Page</title>
+        content="Review your shopping cart and make sure you've selected the perfect flower arrangements before checkout. Enjoy easy flower shopping with fast, reliable delivery for every occasion.">
+    <title>Shopping Cart Page</title>
 
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -85,14 +85,16 @@
                             </a>
                         </li>
                         <li class="nav-icon dropdown position-static">
-                            <a class="nav-link position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link position-relative" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="navicon icon-2"
                                     width="30px"><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                     <path
                                         d="M256 144C256 108.7 284.7 80 320 80C355.3 80 384 108.7 384 144L384 192L256 192L256 144zM208 192L144 192C117.5 192 96 213.5 96 240L96 448C96 501 139 544 192 544L448 544C501 544 544 501 544 448L544 240C544 213.5 522.5 192 496 192L432 192L432 144C432 82.1 381.9 32 320 32C258.1 32 208 82.1 208 144L208 192zM232 240C245.3 240 256 250.7 256 264C256 277.3 245.3 288 232 288C218.7 288 208 277.3 208 264C208 250.7 218.7 240 232 240zM384 264C384 250.7 394.7 240 408 240C421.3 240 432 250.7 432 264C432 277.3 421.3 288 408 288C394.7 288 384 277.3 384 264z" />
                                 </svg>
-                                <span class="num-cart bg-maincolor position-absolute rounded-5 d-flex justify-content-center align-items-center ">3</span>
+                                <span
+                                    class="num-cart bg-maincolor position-absolute rounded-5 d-flex justify-content-center align-items-center ">3</span>
 
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end main-font text-center">
@@ -223,18 +225,50 @@
         <section class="cart-hero p-section position-relative">
             <div class="container">
                 <img src="./assets/img/public/flower-bg.webp" width="100%" />
-                <div class="cart-hero-content d-flex flex-column justify-content-center align-items-center vh-100 position-absolute">
+                <div
+                    class="cart-hero-content d-flex flex-column justify-content-center align-items-center vh-100 position-absolute">
                     <h1 class="secondary-font text-white">Shopping Cart</h1>
                     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
                         aria-label="breadcrumb">
                         <ol class="breadcrumb main-font fs-6">
-                            <li class="breadcrumb-item"><a href="./index.html" class="text-decoration-none">Home</a></li>
+                            <li class="breadcrumb-item"><a href="./index.html" class="text-decoration-none">Home</a>
+                            </li>
                             <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
                         </ol>
                     </nav>
                 </div>
             </div>
         </section>
+
+        <section class="head-cart main-font">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div
+                        class="col-md-4 head-service d-flex flex-column justify-content-center align-items-center p-4 m-2 border gap-5">
+                        <span
+                            class="text-white bg-black rounded-circle d-flex align-items-center justify-content-center fs-5">01</span>
+                        <h2 class="fs-4 text-dark-emphasis">Shopping cart</h2>
+                        <div class="border-bottom border-black"></div>
+                    </div>
+                    <div
+                        class="col-md-4 head-service d-flex flex-column justify-content-center align-items-center p-4 m-2 border gap-5">
+                        
+                        <span
+                            class="text-black border rounded-circle d-flex align-items-center justify-content-center fs-5">02</span>
+                        <h2 class="fs-4 text-dark-emphasis">Check out</h2>
+                        <div class="border-bottom border-black"></div>
+                    </div>
+                    <div
+                        class="col-md-4 head-service d-flex flex-column justify-content-center align-items-center p-4 m-2 border gap-5">
+                        <span
+                            class="text-black border rounded-circle d-flex align-items-center justify-content-center fs-5">03</span>
+                        <h2 class="fs-4 text-dark-emphasis">Order completed</h2>
+                        <div class="border-bottom border-black"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
@@ -287,10 +321,11 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
-                <div class="right-side col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column align-items-start gap-2">
+                <div
+                    class="right-side col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column align-items-start gap-2">
                     <div class="social-text d-flex flex-column align-items-start gap-2 ms-4">
                         <span>CONTACT WITH US:</span>
                         <div class="social d-flex gap-2">
@@ -319,11 +354,12 @@
                     <div class="newsletter">
                         <div class="container m-4">
                             <h1 class="secondary-font">Newsletter</h1>
-                            <p class="main-font text-secondary">Sign up for our mailing list to get lastest updates and offers</p>
+                            <p class="main-font text-secondary">Sign up for our mailing list to get lastest updates and
+                                offers</p>
                             <form>
                                 <input type="email" placeholder="Your mail here"
                                     class="mail border border-1 rounded-pill border-dark-subtle p-2">
-                                
+
                             </form>
                         </div>
                     </div>
