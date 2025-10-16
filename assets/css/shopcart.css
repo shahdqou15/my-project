@@ -99,34 +99,40 @@
 /*end head cart*/
 
 /*start shop cart*/
-.shop-cart img{
+.shop-cart img {
     width: 300px;
     height: 380px;
 }
-.table>thead{
-   --bs-table-color: none; /* var(--bs-emphasis-color); */
-   --bs-table-bg :none; /*  var(--bs-body-bg); */
-background-color: #DDDDDD;
+
+.table>thead {
+    --bs-table-color: none;
+    /* var(--bs-emphasis-color); */
+    --bs-table-bg: none;
+    /*  var(--bs-body-bg); */
+    background-color: #DDDDDD;
 }
-tbody .item-cart td{
+
+tbody .item-cart td {
     padding-top: 25px;
- vertical-align: middle;
+    vertical-align: middle;
 }
-.item-cart  .btn-close:focus{
+
+.item-cart .btn-close:focus {
     box-shadow: none;
 }
 
-@media screen and (max-width:780px){
-    .shop-cart img{
-    width: 180px;
-    height: 220px;
+@media screen and (max-width:780px) {
+    .shop-cart img {
+        width: 180px;
+        height: 220px;
+    }
 }
-}
-@media screen and (max-width:594px){
-    .shop-cart img{
-    width: 100px;
-    height: 120px;
-}
+
+@media screen and (max-width:594px) {
+    .shop-cart img {
+        width: 100px;
+        height: 120px;
+    }
 }
 
 
@@ -134,10 +140,11 @@ tbody .item-cart td{
 
 
 /*start box*/
-.box{
+.box {
     padding: 30px 0;
 }
-.main-button .btn{
+
+.box .main-button .btn {
     padding: 10px 20px;
 }
 
@@ -145,8 +152,57 @@ tbody .item-cart td{
 
 
 
+/*start purchase process*/
+.purchase-process {
+    padding: 30px 0;
+}
+
+.purchase-process .col-md-4 {
+    width: 350px;
+}
+
+.purchase-process .coubon {
+    height: 250px;
+}
+
+.purchase-process .cheackout {
+    height: 215px;
+}
+
+.purchase-process input {
+    border-radius: 0;
+    padding: 10px 15px;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+.purchase-process h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #565656;
+}
+
+.purchase-process label {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:750px) {
+    .purchase-process .row {
+        gap: 15px;
+    }
+}
+
+/*end purchase process*/
+
+
 /*start footer*/
 .footer {
+    padding-top: 100px;
     background: none;
     width: 100%;
 }
