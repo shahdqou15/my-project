@@ -133,6 +133,18 @@ tbody .item-cart td{
 /*end shop cart*/
 
 
+/*start box*/
+.box{
+    padding: 30px 0;
+}
+.main-button .btn{
+    padding: 10px 20px;
+}
+
+/*end box*/
+
+
+
 /*start footer*/
 .footer {
     background: none;
