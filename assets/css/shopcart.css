@@ -98,7 +98,39 @@
 
 /*end head cart*/
 
+/*start shop cart*/
+.shop-cart img{
+    width: 300px;
+    height: 380px;
+}
+.table>thead{
+   --bs-table-color: none; /* var(--bs-emphasis-color); */
+   --bs-table-bg :none; /*  var(--bs-body-bg); */
+background-color: #DDDDDD;
+}
+tbody .item-cart td{
+    padding-top: 25px;
+ vertical-align: middle;
+}
+.item-cart  .btn-close:focus{
+    box-shadow: none;
+}
 
+@media screen and (max-width:780px){
+    .shop-cart img{
+    width: 180px;
+    height: 220px;
+}
+}
+@media screen and (max-width:594px){
+    .shop-cart img{
+    width: 100px;
+    height: 120px;
+}
+}
+
+
+/*end shop cart*/
 
 
 /*start footer*/
