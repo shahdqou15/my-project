@@ -35,23 +35,25 @@ main {
 }
 
 @media screen and (max-width:1200px) {
- .cart-hero {
-    padding: 100px 0;
-     margin: 0 100px;
+    .cart-hero {
+        padding: 100px 0;
+        margin: 0 100px;
+    }
 }
-}
+
 @media screen and (max-width:992px) {
- .cart-hero {
-    padding: 70px 0;
-     margin: 0 80px;
-}
+    .cart-hero {
+        padding: 70px 0;
+        margin: 0 80px;
+    }
 }
 
 @media screen and (max-width:778px) {
-   .cart-hero {
-    padding: 60px 0;
-     margin: 0 30px;
-}
+    .cart-hero {
+        padding: 60px 0;
+        margin: 0 30px;
+    }
+
     .cart-hero-content h1 {
         font-size: 30px;
     }
@@ -59,9 +61,9 @@ main {
 
 @media screen and (max-width:489px) {
     .cart-hero {
-    padding: 40px 0;
-     margin: 0 10px;
-}
+        padding: 40px 0;
+        margin: 0 10px;
+    }
 }
 
 /*end hero*/
@@ -97,9 +99,10 @@ main {
 /*end head cart*/
 
 /*start shop cart*/
-.shop-cart .container{
+.shop-cart .container {
     overflow: scroll;
 }
+
 .shop-cart img {
     width: 300px;
 }
@@ -114,9 +117,11 @@ tbody .item-cart td {
     padding-top: 25px;
     vertical-align: middle;
 }
-tbody .item-cart .qty{
+
+tbody .item-cart .qty {
     white-space: nowrap;
 }
+
 .item-cart .btn-close:focus {
     box-shadow: none;
 }
@@ -141,24 +146,29 @@ tbody .item-cart .qty{
 .box {
     padding: 30px 0;
 }
-.box .left-box{
+
+.box .left-box {
     width: 50%;
 }
-.box .right-box{
+
+.box .right-box {
     width: 25%;
 }
+
 .box .main-button .btn {
     padding: 10px 20px;
-    
+
 }
+
 @media screen and (max-width:780px) {
-    .box .row{
+    .box .row {
         gap: 12px;
     }
-   .box .left-box,
-.box .right-box{
-    width: 100%;
-}
+
+    .box .left-box,
+    .box .right-box {
+        width: 100%;
+    }
 }
 
 /*end box*/
@@ -169,7 +179,8 @@ tbody .item-cart .qty{
 .purchase-process {
     padding: 30px 0;
 }
-.purchase-process .row{
+
+.purchase-process .row {
     justify-content: space-between;
 }
 
@@ -206,6 +217,7 @@ tbody .item-cart .qty{
     font-size: 14px;
     font-weight: 700;
 }
+
 @media screen and (max-width:750px) {
     .purchase-process .row {
         gap: 20px;
@@ -213,8 +225,9 @@ tbody .item-cart .qty{
         align-items: center;
     }
 }
+
 @media screen and (max-width:400px) {
-    .purchase-process{
+    .purchase-process {
         margin-left: 5px;
     }
 }
