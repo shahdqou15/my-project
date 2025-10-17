@@ -222,11 +222,11 @@
     </header>
 
     <main>
-        <section class="cart-hero p-section position-relative">
+        <section class="cart-hero">
             <div class="container">
-                <img src="./assets/img/public/flower-bg.webp" width="100%" />
+                <!-- <img src="./assets/img/public/flower-bg.webp" width="100%" /> -->
                 <div
-                    class="cart-hero-content d-flex flex-column justify-content-center align-items-center vh-100 position-absolute">
+                    class="cart-hero-content d-flex flex-column justify-content-center align-items-center w-100">
                     <h1 class="secondary-font text-white">Shopping Cart</h1>
                     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
                         aria-label="breadcrumb">
@@ -290,7 +290,7 @@
                             <td><a href="#" class="text-decoration-none text-secondary-emphasis fs-6">Eleganr by
                                     BloomNation</a></td>
                             <td class="text-secondary">$69.90</td>
-                            <td>- 1 +</td>
+                            <td class="qty">- 1 +</td>
                             <td class="fs-5">$69.90</td>
                             <td><button type="button" class="btn-close border" aria-label="Close"></button></td>
                         </tr>
@@ -299,7 +299,7 @@
                             <td><a href="#" class="text-decoration-none text-secondary-emphasis fs-5">Pink roses</a>
                             </td>
                             <td class="text-secondary">$51.59</td>
-                            <td>- 2 +</td>
+                            <td class="qty">- 2 +</td>
                             <td class="fs-5">$103.18</td>
                             <td><button type="button" class="btn-close border" aria-label="Close"></button></td>
 
@@ -309,7 +309,7 @@
                             <td><a href="#" class="text-decoration-none text-secondary-emphasis fs-6">Fun & Flirty By
                                     BloomNation</a></td>
                             <td class="text-secondary">$51.59</td>
-                            <td>- 2 +</td>
+                            <td class="qty">- 2 +</td>
                             <td class="fs-5">$103.18</td>
                             <td><button type="button" class="btn-close border" aria-label="Close"></button></td>
                         </tr>
@@ -318,7 +318,7 @@
                             <td><a href="#" class="text-decoration-none text-secondary-emphasis fs-5">Queen Rose -
                                     Pink</a></td>
                             <td class="text-secondary">$51.59</td>
-                            <td>- 2 +</td>
+                            <td class="qty">- 2 +</td>
                             <td class="fs-5">$103.18</td>
                             <td><button type="button" class="btn-close border" aria-label="Close"></button></td>
                         </tr>
@@ -327,7 +327,7 @@
                             <td><a href="#" class="text-decoration-none text-secondary-emphasis fs-6">Winter White
                                     Bouquet</a></td>
                             <td class="text-secondary">$51.59</td>
-                            <td>- 2 +</td>
+                            <td class="qty">- 2 +</td>
                             <td class="fs-5">$103.18</td>
                             <td><button type="button" class="btn-close border" aria-label="Close"></button></td>
                         </tr>
@@ -345,7 +345,7 @@
         <section class="box">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="d-flex w-50 gap-3">
+                    <div class="left-box d-flex gap-3">
                         <div class="main-button secondary-font">
                             <a href="#"><button type="button" class="btn btn-dark m-0">CLEAR SHOPPING CART</button></a>
                         </div>
@@ -353,7 +353,7 @@
                             <a href="#"><button type="button" class="btn btn-dark m-0">UPDATE SHOPPING CART</button></a>
                         </div>
                     </div>
-                    <div class="w-25">
+                    <div class="right-box">
                         <div class="main-button secondary-font">
                             <a href="#"><button type="button" class="btn btn-dark m-0">CONTINUS SHOPPING</button></a>
                         </div>
@@ -364,7 +364,7 @@
 
         <section class="purchase-process">
             <div class="container">
-                <div class="row justify-content-between">
+                <div class="row">
                     <div class="col-md-4 coubon d-flex flex-column align-items-start gap-2 border p-4 bg-white">
                         <h3>COUPON CODE</h3>
                         <p class="text-secondary">Enter your coupon code if you have one</p>
