@@ -21,17 +21,19 @@
 /*end header*/
 
 /*start hero*/
+main{
+    padding-top: 117px;
+}
 .shop-hero {
-    background-image: ("shop-bg.webp");
+    background-image: url(../img/shop/shop-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    top: 48px;
+    padding: 100px 0;
 }
 
 .shop-hero-content {
-    top: 12px;
-    left: 105px;
     align-items: flex-start;
+    padding-left: 50px;
 }
 
 .shop-hero-content h1 {
@@ -47,29 +49,43 @@
 }
 
 @media screen and (max-width:992px) {
-    .shop-hero-content {
+    /* .shop-hero-content {
         top: 5px;
     }
 
     .shop-hero-content h1 {
         font-size: 50px;
-    }
+    } */
 }
 
 @media screen and (max-width:772px) {
-    .shop-hero-content {
+    .shop-hero {
+   
+    padding: 30px 0;
+}
+.shop-hero-content h1 {
+        font-size: 50px;
+    }
+    .shop-hero-content p {
+        font-size: 20px;
+    }
+    /* .shop-hero-content {
         top: -50px;
         left: 90px;
     }
 
     .shop-hero-content h1 {
         font-size: 35px;
-    }
+    } */
 
 }
 
 @media screen and (max-width:600px) {
-    .shop-hero-content {
+       .shop-hero {
+   
+    padding: 20px 0;
+}
+    /* .shop-hero-content {
         top: -85px;
         left: 60px;
     }
@@ -80,19 +96,23 @@
 
     .shop-hero-content p {
         font-size: 15px;
-    }
+    } */
 
 
 }
 
 @media screen and (max-width:472px) {
-    .shop-hero-content {
-        top: -115px;
-        left: 40px;
-    }
+          .shop-hero {
+   
+    padding: 10px 0;
+}
+.shop-hero-content {
+    padding-left: 30px;
+}
+   
 
     .shop-hero-content h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .shop-hero-content p {
@@ -123,19 +143,20 @@
     justify-content: end;
 }
 
-.show a {
+.show .left button a {
     color: #000;
     cursor: pointer;
 }
-
-.show .left button:hover {
+.show .left button{
+    transition: all 0.5s;
+}
+.show .left button:hover{
     color: #fff;
     background-color: #000;
 }
-
-.show .left button:hover svg {
-    width: 25px;
-    height: 25px;
+.show .left button:hover a{
+    color: #fff;
+    
 }
 
 .show .left button:hover svg path {
@@ -145,9 +166,9 @@
 .select {
     background: none;
     cursor: pointer;
+    background-color: #f0f0f0;
 }
-
-.option:hover {
+select option:hover{
     color: var(--maincolor);
     background-color: #fff;
 }
@@ -169,7 +190,7 @@
 }
 
 .card {
-    width: 200px;
+    width: 190px;
     margin-bottom: 10px;
 }
 
@@ -196,16 +217,16 @@
 
 .img-icons {
     top: 40%;
-    left: 6%;
+    left: 2%;
 }
 
 /*******/
+
 .page-item .page-link {
     color: #000;
     background: none;
     border: none;
     background-color: #eeeeee;
-
 }
 
 .page-item .page-link:hover {
@@ -220,9 +241,9 @@
 }
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1250px) {
     .card {
-        width: 170px;
+        width: 160px;
     }
 }
 
