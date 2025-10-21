@@ -96,6 +96,24 @@ main {
 
 /*end contact*/
 
+/*start message*/
+.contact-img img{
+    width: 460px;
+}
+.login-side input,
+.register-side input {
+    border-radius: 0;
+    padding: 10px 15px;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #000;
+}
+
+/*end message*/
+
 
 /*start footer*/
 .footer {
