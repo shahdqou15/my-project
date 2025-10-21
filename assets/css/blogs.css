@@ -102,6 +102,9 @@ main {
 
 /*end hero*/
 /*start blogs*/
+.blogs{
+    padding-bottom: 30px;
+}
 .blogs input:focus-visible {
     border: none;
 }
@@ -222,6 +225,7 @@ main {
 .footer {
     background: none;
     width: 100%;
+    padding-top: 60px;
 }
 
 .footer .left-side {
