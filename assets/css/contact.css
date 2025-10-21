@@ -74,6 +74,28 @@ main {
 /*end hero*/
 
 
+/*start contact*/
+.contact-info{
+    width: 370px;
+    height: 240px;
+}
+.contact-info img{
+    width: 50px;
+}
+.first-contact-info{
+    background-color: #F5E7E6;
+}
+.second-contact-info{
+    background-color: #F4F4F4;
+}
+.third-contact-info{
+    background-color: #dce7ed;
+}
+
+
+
+/*end contact*/
+
 
 /*start footer*/
 .footer {
