@@ -177,6 +177,7 @@ main {
 
 /*start footer*/
 .footer {
+    padding-top: 60px;
     background: none;
     width: 100%;
 }
