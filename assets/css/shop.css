@@ -137,9 +137,13 @@ main {
 }
 
 select option:hover {
+    
+}
+select:not(:-internal-list-box):not([multiple])::picker{
     color: var(--maincolor);
     background-color: #fff;
 }
+
 
 /*****/
 
