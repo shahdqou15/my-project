@@ -102,9 +102,10 @@ main {
 
 /*end hero*/
 /*start blogs*/
-.blogs{
+.blogs {
     padding-bottom: 30px;
 }
+
 .blogs input:focus-visible {
     border: none;
 }
@@ -252,10 +253,11 @@ main {
     .footer .right-side {
         width: 100%;
     }
-    .footer .right-side {
-    align-items: center;
 
-}
+    .footer .right-side {
+        align-items: center;
+
+    }
 
     .social-text {
         justify-content: center;

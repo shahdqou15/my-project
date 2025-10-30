@@ -205,9 +205,11 @@ main {
     .footer .right-side {
         width: 100%;
     }
-.footer .right-side {
-    align-items: center;
-}
+
+    .footer .right-side {
+        align-items: center;
+    }
+
     .social-text {
         justify-content: center;
         align-items: center;
