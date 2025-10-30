@@ -117,7 +117,11 @@ main {
     text-decoration: underline;
     color: #51555e;
 }
-
+@media screen and (max-width:768px) {
+   .login-reg .login-side{
+        margin-bottom: 40px;
+    }
+}
 @media screen and (max-width:450px) {
     .social-btn .btn {
         padding: 10px 25px;

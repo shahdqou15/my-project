@@ -30,7 +30,7 @@ body {
 /*start header*/
 .navbar {
     padding: 20px 0;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 10px;
 
 }
 
@@ -104,6 +104,10 @@ body {
     font-weight: bold;
 }
 
+.icon-3 {
+    cursor: pointer;
+}
+
 .buttons .btn {
     border-radius: 0;
     transition: all 0.5s;
@@ -157,8 +161,14 @@ body {
     background-repeat: no-repeat;
     background-position: 0 0;
     width: 100%;
+    height: 100vh;
+    padding: 70px 0;
 
+}
 
+.hero-content {
+    height: 100vh;
+    justify-content: center;
 }
 
 .hero h1 {
@@ -190,7 +200,7 @@ body {
     }
 
     .hero-content {
-        margin-top: 5px;
+        margin-top: -70px;
     }
 
     .hero h1 {
@@ -206,16 +216,32 @@ body {
 
 @media screen and (max-width:550px) {
     .hero {
-        padding-top: 20px;
-        background-position: -100px 0;
+        background-position: 0 0;
+        height: 50vh;
+    }
+
+    .hero-content {
+        height: 50vh;
+        justify-content: start;
+        margin-top: -20px;
+
+    }
+
+    .hero h3,
+    .hero p {
+        font-size: 12px;
     }
 
     .hero h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .hero-content img {
         width: 150px;
+    }
+
+    .main-button .btn {
+        margin-top: 10px;
     }
 
 }
@@ -388,7 +414,7 @@ body {
     background-image: url(../img/collection/collection.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -45px 40px;
+    background-position: -40px 40px;
     height: 862px;
 }
 
@@ -468,7 +494,7 @@ body {
 
 @media screen and (max-width:486px) {
     .collection .sale-side {
-        background-position: -70px 40px;
+        background-position: -100px 40px;
     }
 }
 
@@ -492,6 +518,10 @@ body {
     padding-bottom: 70px;
 }
 
+.wedding .img-icons {
+    gap: 20px;
+}
+
 @media screen and (min-width:992px) and (max-width:1200px) {
     .wedding {
         background-position: -378px 137px;
@@ -507,6 +537,15 @@ body {
     .wedding .products .card {
         margin: 0 -20px;
         padding: 0 35px;
+    }
+
+    .wedding .products .card-img img {
+        height: 250px;
+    }
+
+    .wedding .img-icons {
+        margin-left: -8px;
+        gap: 2px;
     }
 }
 
@@ -585,7 +624,7 @@ body {
 
 @media screen and (max-width:486px) {
     .holiday .sale-side {
-        background-position: -70px 40px;
+        background-position: -100px 40px;
     }
 }
 
@@ -762,7 +801,7 @@ body {
 
 /*start footer*/
 .footer {
-    padding-top: 50px;  
+    padding-top: 50px;
     background-image: url(../img/public/BG-footer.webp);
     background-size: cover cover;
     background-position: -634px -452px;
@@ -782,6 +821,10 @@ body {
 .footer a:hover {
     color: #000000;
     font-weight: bold;
+}
+
+.social a path {
+    transition: all 0.5s;
 }
 
 .social a:hover path {
@@ -833,10 +876,7 @@ body {
 
     .footer .right-side {
         background: none;
-        width: 50%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        width: 90%;
     }
 
     .newsletter {
