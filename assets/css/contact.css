@@ -189,6 +189,7 @@ main {
 .footer .right-side {
     width: 35%;
     background: none;
+    align-items: flex-start;
 }
 
 .footer svg {
@@ -204,7 +205,9 @@ main {
     .footer .right-side {
         width: 100%;
     }
-
+.footer .right-side {
+    align-items: center;
+}
     .social-text {
         justify-content: center;
         align-items: center;
