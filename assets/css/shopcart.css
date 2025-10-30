@@ -149,6 +149,7 @@ tbody .item-cart .qty {
 
 .box .left-box {
     width: 50%;
+    flex-wrap: wrap;
 }
 
 .box .right-box {
@@ -249,6 +250,7 @@ tbody .item-cart .qty {
 .footer .right-side {
     width: 35%;
     background: none;
+    align-items: flex-start;
 }
 
 .footer svg {
@@ -264,6 +266,9 @@ tbody .item-cart .qty {
     .footer .right-side {
         width: 100%;
     }
+    .footer .right-side {
+    align-items: center;
+}
 
     .social-text {
         justify-content: center;

@@ -1,4 +1,3 @@
-
 /*start header*/
 @media screen and (max-width:620px) {
     .navbar {
@@ -136,10 +135,9 @@ main {
     background-color: #f0f0f0;
 }
 
-select option:hover {
-    
-}
-select:not(:-internal-list-box):not([multiple])::picker{
+select option:hover {}
+
+select:not(:-internal-list-box):not([multiple])::picker {
     color: var(--maincolor);
     background-color: #fff;
 }
@@ -174,7 +172,8 @@ select:not(:-internal-list-box):not([multiple])::picker{
     height: 100%;
     object-fit: cover;
 }
-.img-icons{
+
+.img-icons {
     gap: 18px;
 }
 
@@ -221,24 +220,27 @@ select:not(:-internal-list-box):not([multiple])::picker{
     .card {
         width: 160px;
     }
-    .img-icons{
-    gap: 3px;
-}
+
+    .img-icons {
+        gap: 3px;
+    }
 }
 
 @media screen and (min-width:767px) and (max-width:1020px) {
     .card {
         width: 120px;
     }
-        .img-icons{
-    gap: 1px;
-    flex-wrap: wrap;
-    justify-content: center;
-    top: 20px;
-}
+
+    .img-icons {
+        gap: 1px;
+        flex-wrap: wrap;
+        justify-content: center;
+        top: 20px;
+    }
+
     .card-body a {
-    white-space: wrap;
-}
+        white-space: wrap;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -246,10 +248,11 @@ select:not(:-internal-list-box):not([multiple])::picker{
         width: 250px;
         margin: 0 auto;
     }
-       .img-icons{
-    gap: 18px;
-    margin-left: 25px;
-}
+
+    .img-icons {
+        gap: 18px;
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width:770px) {
@@ -301,7 +304,8 @@ select:not(:-internal-list-box):not([multiple])::picker{
     .footer .right-side {
         width: 100%;
     }
-    .footer .right-side{
+
+    .footer .right-side {
         align-items: center;
     }
 
