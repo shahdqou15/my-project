@@ -125,8 +125,12 @@ main {
 
 .blogs .blog-img img {
     width: 500px;
+    transition: all 0.5s ease;
 }
-
+.blogs .blog-img img:hover {
+    transform: scale(0.95);
+    opacity: 0.7;
+}
 .blogs h3 {
     font-size: 24px;
     color: black;

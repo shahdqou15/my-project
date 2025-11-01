@@ -134,22 +134,15 @@ main {
     cursor: pointer;
     background-color: #f0f0f0;
 }
-
-select option:hover {}
-
-select:not(:-internal-list-box):not([multiple])::picker {
-    color: var(--maincolor);
-    background-color: #fff;
-}
-
-
 /*****/
 
 .shop-products {
     padding: 20px 0;
     padding-bottom: 50px;
 }
-
+.shop-products .card a{
+   transition: all 0.5s;
+}
 .shop-products .card a:hover {
     color: var(--maincolor);
 }
